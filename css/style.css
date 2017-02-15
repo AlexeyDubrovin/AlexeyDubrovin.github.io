@@ -1,0 +1,9 @@
+.box {
+	height: 100px;
+	border: 2px solid #000;
+}
+.box-in {
+	height: 50px;
+	border: 2px solid black;
+	background-color: green;
+}
