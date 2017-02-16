@@ -1,0 +1,14 @@
+.box {
+	position: fixed;
+	width: 300px;
+	height: 400px;
+	border: 2px solid grey;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top: -200px;
+	padding: 20px 30px;
+}
+.column {
+	columns: 2;
+}

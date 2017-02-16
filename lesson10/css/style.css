@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+}
+.header {
+	position: fixed;
+	background-color: black;
+	width: 100%;
+}
+a {
+	position: relative;
+	color: #fff;
+	display: inline-block;
+	height: 100px;
+	padding-top: 40px;
+	padding-right: 10px;
+}
