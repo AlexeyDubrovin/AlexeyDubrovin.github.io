@@ -1,0 +1,515 @@
+html {
+  margin: 0;
+}
+/* fonts files */
+.Myriad-BI {
+  font-family: 'MyriadProBoldIt', sans-serif;
+}
+.Myriad-B {
+  font-family: 'MyriadProBold', sans-serif;
+}
+.Myriad-I {
+  font-family: 'MyriadProIt', sans-serif;
+}
+.Myriad-R {
+  font-family: 'MyriadProRegular', sans-serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+body {
+  font-family: 'MyriadProRegular', sans-serif;
+}
+header {
+  background: #ffffff url("../img/1.jpg") repeat-x top center;
+  min-height: 1080px;
+  position: relative;
+}
+.top-line {
+  min-height: 100px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.74);
+  z-index: 2;
+}
+.main-head {
+  margin-top: 1%;
+}
+.main-head-logo p {
+  font-family: 'MyriadProBoldIt', sans-serif;
+  font-size: 57px;
+  color: #ffffff;
+}
+.main-head-menu a {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  padding-top: 1%;
+  padding-right: 10px;
+}
+.main-head-menu a:hover,
+.main-head-menu a:focus {
+  color: #d3ce24;
+  outline: none;
+  text-decoration: none;
+}
+.main-head-menu a:visited {
+  color: #ffffff;
+  outline: none;
+  text-decoration: none;
+}
+.main-head-menu a h2 {
+  font-size: 27px;
+}
+.main-text h1 {
+  font-size: 80px;
+  padding-top: 200px;
+  font-family: 'MyriadProBoldIt', sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 6px 0px rgba(30, 2, 2, 0.71);
+}
+.carusel {
+  margin-top: 230px;
+}
+.carousel-inner p {
+  font-family: 'MyriadProIt', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  padding-bottom: 4%;
+}
+.carousel-control {
+  display: none;
+}
+.carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: #a88f07;
+}
+.carousel-indicators .active {
+  width: 17px;
+  height: 17px;
+  background-color: #e8e225;
+}
+#process img {
+  position: absolute;
+  margin-top: -21%;
+  width: 100%;
+  min-height: 1208px;
+}
+.process-header {
+  margin-top: -6%;
+}
+.process-header h2 {
+  color: #0f0f0f;
+  font-family: 'MyriadProBold', sans-serif;
+  font-size: 80px;
+}
+.process-product {
+  color: #0f0f0f;
+  font-family: 'MyriadProRegular', sans-serif;
+  font-size: 32px;
+  margin-top: 150px;
+}
+.process-product a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+.process-product a:focus {
+  color: #d3ce24;
+  outline: none;
+  text-decoration: none;
+}
+.process-product a:visited {
+  color: #0f0f0f;
+  outline: none;
+  text-decoration: none;
+}
+.process-product-psh {
+  background: url(../img/psh.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  border-radius: 100px;
+}
+.process-product-yach {
+  background: url(../img/yach.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  border-radius: 100px;
+}
+.process-product-gor {
+  background: url(../img/gor.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  border-radius: 100px;
+}
+.process-product-kuk {
+  background: url(../img/kuk.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  border-radius: 100px;
+}
+.process-product-masl {
+  background: url(../img/masl.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  border-radius: 100px;
+}
+.process-product p {
+  margin-top: 6%;
+}
+.process-product:hover {
+  cursor: pointer;
+}
+.process-product:hover .process-product-psh,
+.process-product:hover .process-product-yach,
+.process-product:hover .process-product-gor,
+.process-product:hover .process-product-kuk,
+.process-product:hover .process-product-masl {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  -ms-opacity: 0.8;
+  -o-opacity: 0.8;
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.process-product:hover a {
+  color: #d3ce24;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#work img {
+  position: absolute;
+  width: 100%;
+  min-height: 1257px;
+}
+.shippin-list {
+  min-height: 600px;
+}
+.shipping-item {
+  font-family: 'MyriadProBold', sans-serif;
+  position: absolute;
+  background: #ffffff;
+  cursor: pointer;
+  width: 37px;
+  height: 37px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.shipping-item-num {
+  position: absolute;
+  left: 14px;
+  line-height: 2;
+  color: #0f0f0f;
+}
+.shipping-item:hover {
+  background: #d3ce24;
+  color: #d3ce24;
+}
+.shipping-item-desc {
+  position: absolute;
+  top: 130px;
+  width: 300px;
+}
+.shipping-item-desc:after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: -75px;
+  background: url(../img/doc.png) no-repeat;
+  color: #ffffff;
+  background-position: 0 0;
+  width: 150px;
+  height: 150px;
+}
+.shipping-item-desc-title {
+  top: 30px;
+  left: -50px;
+  position: absolute;
+}
+.shipping-item-desc-preview {
+  top: 80px;
+  left: -50px;
+  position: absolute;
+}
+.shipping-item:nth-of-type(1) {
+  top: 330px;
+  left: 100px;
+}
+.shipping-item:nth-of-type(2) {
+  left: 400px;
+  top: 490px;
+}
+.shipping-item:nth-of-type(2) .shipping-item-desc:after {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: -240px;
+  background: url(../img/hands.png) no-repeat;
+  color: #ffffff;
+  background-position: 0 0;
+  width: 150px;
+  height: 150px;
+}
+.shipping-item:nth-of-type(2) .shipping-item-desc-minus {
+  font-size: 47px;
+  position: absolute;
+  top: -210px;
+  left: -230px;
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.shipping-item:nth-of-type(2) .shipping-item-desc-title {
+  position: absolute;
+  top: -360px;
+  left: 60px;
+}
+.shipping-item:nth-of-type(2) .shipping-item-desc-preview {
+  position: absolute;
+  top: -310px;
+  left: 60px;
+}
+.shipping-item:nth-of-type(3) {
+  left: 680px;
+  top: 330px;
+}
+.shipping-item:nth-of-type(3) .shipping-item-desc:after {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: -75px;
+  background: url(../img/auto.png) no-repeat;
+  color: #ffffff;
+  background-position: 0 0;
+  width: 150px;
+  height: 150px;
+}
+.shipping-item:nth-of-type(3) .shipping-item-desc-minus {
+  font-size: 47px;
+  position: absolute;
+  top: -42px;
+  left: -230px;
+  -webkit-transform: rotate(145deg);
+  -ms-transform: rotate(145deg);
+  -o-transform: rotate(145deg);
+  transform: rotate(145deg);
+}
+.shipping-item:nth-of-type(3) .shipping-item-desc-title {
+  top: 30px;
+  left: 40px;
+  position: absolute;
+}
+.shipping-item:nth-of-type(3) .shipping-item-desc-preview {
+  top: 80px;
+  left: 40px;
+  position: absolute;
+}
+.shipping-item:nth-of-type(4) {
+  left: 960px;
+  top: 490px;
+}
+.shipping-item:nth-of-type(4) .shipping-item-desc:after {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: -240px;
+  background: url(../img/card.png) no-repeat;
+  color: #ffffff;
+  background-position: 0 0;
+  width: 150px;
+  height: 150px;
+}
+.shipping-item:nth-of-type(4) .shipping-item-desc-minus {
+  font-size: 47px;
+  position: absolute;
+  top: -210px;
+  left: -230px;
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.shipping-item:nth-of-type(4) .shipping-item-desc-title {
+  position: absolute;
+  top: -340px;
+  left: 60px;
+}
+.shipping-item:nth-of-type(4) .shipping-item-desc-preview {
+  position: absolute;
+  top: -310px;
+  left: 60px;
+}
+#us {
+  margin-top: 80px;
+}
+.us-header h2 {
+  color: #0f0f0f;
+  font-family: 'MyriadProBold', sans-serif;
+  font-size: 80px;
+}
+.us-product {
+  color: #0f0f0f;
+  font-family: 'MyriadProRegular', sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
+}
+.us-product a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+.us-product a:focus {
+  color: #d3ce24;
+  outline: none;
+  text-decoration: none;
+}
+.us-product a:visited {
+  color: #0f0f0f;
+  outline: none;
+  text-decoration: none;
+}
+.us-product-img {
+  background: url(../img/time.png) no-repeat;
+  background-size: cover;
+  width: 142px;
+  height: 131px;
+}
+.us-product p {
+  margin-top: 6%;
+}
+.us-product:hover {
+  cursor: pointer;
+}
+.us-product:hover .process-product-img {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  -ms-opacity: 0.8;
+  -o-opacity: 0.8;
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.us-product:hover a {
+  color: #d3ce24;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#contacts img {
+  position: absolute;
+  width: 100%;
+  min-height: 875px;
+  margin-top: -45px;
+}
+#contacts p {
+  font-size: 35px;
+  color: #ffffff;
+}
+#contacts p span {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #e8e225;
+}
+.contacts-header {
+  margin: 120px auto 70px auto;
+}
+.contacts-header h2 {
+  color: #ffffff;
+  font-family: 'MyriadProBold', sans-serif;
+  font-size: 80px;
+}
+#form {
+  margin: 0px auto 72px auto;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.23);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 35px;
+  color: #ffffff;
+  padding: 15px 5px;
+  margin: 5px 0;
+}
+.form input:hover,
+.form textarea:hover {
+  background-color: rgba(255, 255, 255, 0.47);
+}
+.form-btn {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #0f0f0f;
+  font-size: 55px;
+  background-color: #e8e225;
+  border: none;
+  padding: 0 125px;
+  display: block;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+}
+.botom-line {
+  padding: 50px;
+  min-height: 150px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 31px;
+}
+.botom-logo {
+  font-size: 57px;
+  font-family: 'MyriadProBold', sans-serif;
+  color: #cbcbcb;
+}
+.botom-logo p {
+  text-align: right;
+}
+.botom-logo img {
+  position: absolute;
+  top: 0;
+}
+.social img {
+  position: relative;
+  margin: 30px 15px 0 15px;
+}
